@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - HMNY</title>
+    <style>
+
+        
+
+        #top_header {
+            background:linear-gradient(to right, #16ab8d, #91dfb6);
+    padding: 0px;
+    text-align: center;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+
+  
+}
+.logo{
+    text-align: left;
+    color: #333333; 
+    font-size: 55px;
+    letter-spacing: -10px;
+   font-family: 'Times New Roman', serif;
+   margin-top: 0;
+}
+
+h1 {
+    text-align: left;
+    color: #333;
+    font-size: 50px;
+    letter-spacing: -5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 0;
+}
+
+#top_header_buttons {
+    display: flex;
+}
+
+#top_header_buttons a {
+    font-size: 20px;
+    margin-right: 15px;
+    color: black;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+    word-spacing: 40%;
+}
+
+#top_header_buttons a:hover {
+    transform: scale(1.2);
+     
+     color: aliceblue;
+  
+}
+
+
+    
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            line-height: 1.6;
+            color: #544e5f;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        h2 {
+            color: #333;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: aliceblue;
+   
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: rgb(58, 176, 174);
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: rgb(59, 151, 130);
+        }
+
+        footer {
+
+     background:linear-gradient(to right, #16ab8d, #91dfb6);
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 90px;
+    width: 100%;
+    
+
+
+}
+.social-media-icons {
+margin-top: 20px;
+text-align: center;
+}
+
+.social-media-icons a {
+display: inline-block;
+margin-right: 10px;
+color: #fff;
+text-decoration: none;
+}
+
+.social-media-icons img {
+width: 20px;
+height: 20px;
+vertical-align: middle;}
+
+    </style>
+</head>
+
+<body>
+    <header>
+       <div id="top_header">
+
+        <img src="imgs/Name.png" height="100px" width="150px" class="logo">
+    <div id="top_header_buttons">
+            <a href="Homepage.php">Home</a>
+           
+            <a href="about.html">About Us</a>
+            
+        </div>
+
+  </div> 
+      </header>
+    
+       
+
+    <section>
+        <h2>Contact Us</h2>
+        <p>
+            <b>Have a question or feedback for us? We'd love to hear from you. Fill out the form below, and we'll get
+                back to you as soon as possible.</b>
+        </p>
+
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 HMNY. All rights reserved.</p>
+        <div class="social-media-icons">
+            <a href="https://www.instagram.com/your_instagram_profile" target="_blank"><img src="imgs/instagram.png" alt="Instagram"></a>
+            <a href="https://www.facebook.com/your_facebook_page" target="_blank"><img src="imgs/facebook.png" alt="Facebook"></a>
+          </div>
+      </footer></br>
+</body>
+
+</html>

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Shopping Page</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .product-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            margin: 10px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .product:hover img {
+            transform: scale(1.1);
+        }
+
+        .size-selection {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Women</h1>
+
+    <div class="product-container">
+        <div class="product">
+            <!-- Add your image source (src) attribute with the path to your image -->
+            <img src="pic2.png" alt="Smiley Face Graphic Tee" onclick="showSizeOptions('sizeOptions1')">
+            <p>Smiley Face Graphic Tee</p>
+            <div class="size-selection" id="sizeOptions1">
+                <label for="size1">Select Size:</label>
+                <select id="size1" name="size1">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <!-- Add your image source (src) attribute with the path to your image -->
+                <img src="pic2.png" alt="Smiley Face Graphic Tee" onclick="showSizeOptions('sizeOptions1')">
+                <p>Smiley Face Graphic Tee</p>
+                <div class="size-selection" id="sizeOptions1">
+                    <label for="size1">Select Size:</label>
+                    <select id="size1" name="size1">
+                        <option value="small">Small</option>
+                        <option value="medium">Medium</option>
+                        <option value="large">Large</option>
+                    </select>
+                </div>
+            </div>
+            <div class="product-container">
+                <div class="product">
+                    <!-- Add your image source (src) attribute with the path to your image -->
+                    <img src="pic2.png" alt="Smiley Face Graphic Tee" onclick="showSizeOptions('sizeOptions1')">
+                    <p>Smiley Face Graphic Tee</p>
+                    <div class="size-selection" id="sizeOptions1">
+                        <label for="size1">Select Size:</label>
+                        <select id="size1" name="size1">
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                </div>
+                
+
+        <div class="product">
+            <!-- Add your image source (src) attribute with the path to your image -->
+            <img src="pic3.png" alt="Product 2" onclick="showSizeOptions('sizeOptions2')">
+            <p>Pink Graphic Tee</p>
+            <div class="size-selection" id="sizeOptions2">
+                <label for="size2">Select Size:</label>
+                <select id="size2" name="size2">
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                </select>
+            </div>
+        </div>
+        <!-- Add more product divs as needed -->
+    </div>
+
+    <script>
+        function showSizeOptions(sizeOptionsId) {
+            // Hide all size options
+            var allSizeOptions = document.querySelectorAll('.size-selection');
+            allSizeOptions.forEach(function (sizeOption) {
+                sizeOption.style.display = 'none';
+            });
+
+            // Show the selected size options
+            var selectedSizeOptions = document.getElementById(sizeOptionsId);
+            selectedSizeOptions.style.display = 'block';
+        }
+    </script>
+
+</body>
+
+</html>

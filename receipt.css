@@ -1,0 +1,121 @@
+.left{
+     margin-left: 100px;
+     margin-top: 0;
+    
+}
+.shipping{
+    text-decoration: underline;
+    color: gray;
+   
+
+}
+#logo{
+    font-size: 60px;
+    font-weight: bolder;
+    
+}
+#name{
+    font-weight: bolder;
+    font-size: 15px;
+}
+.address{
+    text-decoration: underline;
+    color: gray;
+}
+#payement{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.payement{
+    text-decoration: underline;
+    color: gray;
+      
+}
+#contactinfo{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.right{
+    position: absolute;
+    top: 0;
+    right: 550px;
+    margin-top: 100px;
+    margin-right: -180px;
+   
+}
+.checkbox-container {
+    margin-top: 20px;
+    text-align: center;
+    
+}
+
+#acceptCheckbox {
+    margin-right: 10px;
+    text-align: center;
+}
+
+
+label {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+}
+.footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.go-back-button {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 120px;
+}
+
+
+.authorize-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+margin-right: 120px;}
+
+#total{
+    text-align: center;
+  
+}
+.header-section {
+    background:linear-gradient(to right, #16ab8d, #91dfb6);
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content {
+    padding: 20px;
+}
+#top_header_buttons {
+    display: flex;
+}
+
+#top_header_buttons a {
+    font-size: 20px;
+    margin-left: 1300px;
+    color: black;
+    text-decoration: none;
+    margin-top: -20px;
+    transition: transform 0.3s ease-in-out;
+   
+}
+
+#top_header_buttons a:hover {
+    transform: scale(1.2);
+    color: aliceblue;
+}
